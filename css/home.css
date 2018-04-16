@@ -41,7 +41,7 @@ ul {
     text-align: center;
 }
 h2{
-    color: white;
+    color: red;
 }
 h3{
     color: white;
@@ -75,4 +75,41 @@ p
 #SocialMedia
 {
 
+}
+button
+{
+    background-color: Black;
+    color: White;
+}
+#container
+{
+    position: relative;
+    background-color: transparent;
+    padding-left: 100px;
+}
+#animate
+{
+    padding-left: 1000px;
+    width: 548px;
+    height: 411px;
+    position: fixed;
+    background: url(./images/easteregg.png);
+    z-index: 1;
+}
+#callanim
+{
+
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    background: url(./images/call.png);
+    z-index: 1;
+    float: left;
+    
+}
+.hidden{
+    display:none;
+}
+.unhidden{
+    display: block;
 }
